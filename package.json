@@ -1,0 +1,12 @@
+{
+  "name": "galuwa-dining-netlify-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:function": "node --test tests/founding-guest.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+

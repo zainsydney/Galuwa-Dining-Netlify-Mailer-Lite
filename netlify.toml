@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Static HTML is scanned by Netlify at deploy time. The visible mailing-list
+# form in index.html is explicitly marked with both supported detection forms.
+# The Founding Guest MailerLite handoff is built from netlify/functions.

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galuwa Dining — Opening Spring 2026 · Lane Cove</title>
+<meta name="description" content="Galuwa Dining — a new dining and functions destination is coming to Lane Cove. Opening Spring 2026. Join the Founding Guests list.">
+<meta property="og:title" content="Galuwa Dining — Opening Spring 2026">
+<meta property="og:description" content="A new dining and functions destination is coming to Lane Cove. Opening Spring 2026.">
+<meta property="og:image" content="assets/hero_venue.jpg">
+<link rel="icon" type="image/png" href="assets/dining_avatar_square.png">
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3VW6TD4GJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R3VW6TD4GJ');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+@font-face{
+  font-family:'Dream Girl';
+  src:url('assets/fonts/dreamgirl.otf') format('opentype');
+  font-weight:400;font-style:normal;font-display:swap;
+}
+:root{
+  --bone:#f4f1ea;
+  --cloud:#e3e3dc;
+  --ink:#1c1c1a;
+  --euc:#4e6961;
+  --sage:#94b1a8;
+  --ochre:#a08f3c;
+  --ochre-deep:#73672b;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--bone);
+  color:var(--ink);
+  font-family:'Montserrat',-apple-system,'Segoe UI',sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;}
+a{color:inherit;}
+::selection{background:rgba(160,143,60,.25);}
+/* Design is 1920-native: 6.8% side margins, sizes scale with viewport width */
+.wrap{margin:0 auto;padding:0 6.8vw;max-width:2600px;}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;
+  height:63.5vw;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  overflow:hidden;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center top;
+  z-index:0;
+}
+.hero-inner{
+  position:relative;z-index:1;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  padding:6.9vw 1.5rem 10.5vw;
+  text-align:center;
+}
+.hero-logo{width:clamp(140px,18.5vw,355px);height:auto;}
+.hero-head{
+  margin-top:clamp(.9rem,2.2vw,2.6rem);
+  color:var(--euc);
+  font-weight:500;
+  font-size:clamp(1rem,2.5vw,3.15rem);
+  letter-spacing:.06em;
+  line-height:1.35;
+  width:min(92vw,1460px);
+  margin-left:auto;
+  margin-right:auto;
+  text-transform:uppercase;
+  text-shadow:0 0 18px rgba(244,241,234,.85),0 0 6px rgba(244,241,234,.9);
+}
+.hero-opening{
+  color:#fff;
+  font-weight:600;
+  font-size:clamp(1.2rem,2.1vw,2.5rem);
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-shadow:0 1px 16px rgba(0,0,0,.6),0 0 6px rgba(0,0,0,.45);
+}
+.hero-spacer{flex:1;}
+
+/* ---------- Intro ---------- */
+.intro{padding:clamp(3rem,6.6vw,8rem) 0 clamp(2.5rem,5.2vw,6.5rem);}
+.intro-grid{
+  display:grid;
+  grid-template-columns:.88fr 1fr;
+  gap:6vw;
+  align-items:stretch;
+}
+.intro-copy{
+  display:flex;flex-direction:column;
+  padding-top:clamp(.5rem,2.2vw,2.7rem);
+}
+.intro-copy p{
+  font-size:clamp(.9rem,1.04vw,1.18rem);
+  line-height:1.67;
+}
+.intro-copy p + p{margin-top:clamp(.9rem,1.4vw,1.7rem);}
+.icon-row{
+  display:flex;
+  gap:clamp(1.4rem,4.8vw,5.8rem);
+  flex-wrap:wrap;
+  margin-top:auto;
+  padding-top:clamp(1.6rem,3.4vw,4rem);
+  padding-bottom:clamp(.25rem,.8vw,1rem);
+}
+.icon-item{
+  display:flex;flex-direction:column;align-items:center;gap:clamp(.5rem,1vw,1.2rem);
+}
+.icon-item svg{width:clamp(42px,4.7vw,90px);height:clamp(42px,4.7vw,90px);stroke:var(--euc);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+.icon-item span{
+  font-size:clamp(.65rem,.95vw,1.1rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ink);
+}
+
+/* ---------- Function card ---------- */
+.fn-card{
+  background:var(--cloud);
+  padding:clamp(1.8rem,4.2vw,5rem) clamp(1.4rem,4vw,4.8rem);
+  text-align:center;
+  display:flex;flex-direction:column;justify-content:space-between;gap:clamp(1rem,2vw,2.4rem);
+}
+.fn-head{
+  color:var(--euc);
+  font-weight:600;
+  font-size:clamp(1.2rem,2.7vw,3.2rem);
+  letter-spacing:.14em;
+  line-height:1.35;
+  text-transform:uppercase;
+}
+.fn-script{
+  font-family:'Dream Girl',cursive;
+  color:var(--ochre);
+  font-size:clamp(3rem,5.7vw,7rem);
+  line-height:1;
+  margin:.35rem 0 .2rem;
+}
+.fn-body{font-size:clamp(.95rem,1.25vw,1.5rem);line-height:1.7;}
+.fn-body strong{display:block;font-weight:600;margin-bottom:.25em;}
+.fn-btns{display:flex;flex-direction:column;gap:clamp(.7rem,1.1vw,1.3rem);}
+.fn-tile{
+  display:block;text-decoration:none;background:#fff;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.fn-tile:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(28,28,26,.12);}
+.fn-tile img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
+.fn-tile-label{
+  display:flex;align-items:center;justify-content:center;
+  font-weight:600;font-size:clamp(.62rem,.8vw,.95rem);
+  letter-spacing:.14em;text-transform:uppercase;text-align:center;
+  padding:clamp(.75rem,1.1vw,1.3rem) .6rem;
+  transition:background .2s ease,color .2s ease;
+}
+.fn-tile-solid{background:var(--euc);color:#fff;}
+.fn-tile:hover .fn-tile-solid{background:#3f564f;}
+.fn-tile-outline{background:#fff;color:var(--euc);box-shadow:inset 0 0 0 1px var(--euc);}
+.fn-tile:hover .fn-tile-outline{background:var(--euc);color:#fff;}
+.fn-tile-label .arr{margin-left:.5em;}
+.btn{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  font-weight:600;
+  font-size:clamp(.72rem,.95vw,1.15rem);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  padding:clamp(.85rem,1.35vw,1.6rem) 1rem;
+  transition:background .2s ease,color .2s ease,border-color .2s ease;
+}
+.btn-solid{background:var(--euc);color:#fff;}
+.btn-solid:hover{background:#3f564f;}
+.btn-line{border:1px solid var(--euc);color:var(--euc);background:transparent;}
+.btn-line:hover{background:var(--euc);color:#fff;}
+.btn .arr{margin-left:.5em;}
+
+/* ---------- Event enquiry ---------- */
+.enquiry{padding:clamp(2.5rem,5vw,6rem) 0 clamp(3rem,5.5vw,6.5rem);}
+.enq-wrap{max-width:900px;margin:0 auto;text-align:center;}
+.enq-head{
+  color:var(--euc);font-weight:600;
+  font-size:clamp(1.3rem,2.7vw,3.2rem);
+  letter-spacing:.14em;text-transform:uppercase;
+}
+.enq-script{
+  font-family:'Dream Girl',cursive;color:var(--ochre);
+  font-size:clamp(2.6rem,5vw,6rem);line-height:1.15;
+  margin:clamp(.5rem,1vw,1.1rem) 0 clamp(.8rem,1.6vw,1.8rem);
+}
+.enq-copy{
+  font-size:clamp(.95rem,1.2vw,1.4rem);line-height:1.7;
+  max-width:52ch;margin:0 auto clamp(1.6rem,3vw,3rem);
+}
+.enq-form{text-align:left;}
+.enq-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(.7rem,1.1vw,1.3rem);
+  margin-bottom:clamp(.7rem,1.1vw,1.3rem);
+}
+.enq-form input,.enq-form select,.enq-form textarea{
+  width:100%;border:1px solid var(--sage);background:#fff;color:var(--ink);
+  font-family:inherit;font-size:clamp(.9rem,1.1vw,1.3rem);
+  padding:clamp(.8rem,1.15vw,1.4rem) clamp(.9rem,1.2vw,1.5rem);
+  outline:none;border-radius:0;appearance:none;-webkit-appearance:none;
+}
+.enq-form select{background:#fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8"><path d="M1 1l5 5 5-5" fill="none" stroke="%234e6961" stroke-width="1.5"/></svg>') no-repeat right 1rem center;}
+.enq-form input:focus,.enq-form select:focus,.enq-form textarea:focus{border-color:var(--euc);box-shadow:0 0 0 1px var(--euc);}
+.enq-form ::placeholder{color:#9a9a94;}
+.enq-form textarea{resize:vertical;min-height:110px;}
+.enq-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:1rem;flex-wrap:wrap;margin-top:clamp(.9rem,1.6vw,1.8rem);
+}
+.enq-note{font-size:clamp(.78rem,.95vw,1.1rem);color:var(--ink);}
+.enq-note a{color:var(--euc);text-decoration:none;font-weight:600;}
+.enq-note a:hover{color:var(--ochre-deep);}
+.enq-btn{
+  border:0;cursor:pointer;background:var(--euc);color:#fff;
+  font-family:inherit;font-weight:600;
+  font-size:clamp(.72rem,.95vw,1.1rem);letter-spacing:.18em;text-transform:uppercase;
+  padding:clamp(.85rem,1.25vw,1.5rem) clamp(1.6rem,2.6vw,3.2rem);
+  transition:background .2s ease;
+}
+.enq-btn:hover{background:#3f564f;}
+.enq-form[hidden]{display:none;}
+.enq-success{
+  font-family:'Dream Girl',cursive;color:var(--euc);
+  font-size:clamp(2rem,3.4vw,4rem);line-height:1.25;text-align:center;
+  padding:clamp(1.5rem,3vw,3rem) 0;
+}
+.enq-success small{
+  display:block;font-family:'Montserrat',sans-serif;
+  font-size:clamp(.85rem,1.05vw,1.25rem);margin-top:1rem;color:var(--ink);
+}
+.enq-success a{color:var(--euc);font-weight:600;}
+@media (max-width:640px){
+  .enq-grid{grid-template-columns:1fr;}
+}
+
+/* ---------- Mailing list band ---------- */
+.band{
+  background:var(--euc);
+  color:var(--bone);
+  padding:clamp(2.5rem,3.6vw,4.5rem) 0;
+}
+.band-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:6vw;
+  align-items:center;
+}
+.band-script{
+  font-family:'Dream Girl',cursive;
+  color:var(--bone);
+  font-size:clamp(2.1rem,3.35vw,4rem);
+  line-height:1.15;
+  white-space:nowrap;
+}
+.band-underline{
+  width:clamp(48px,4.4vw,85px);height:3px;background:var(--ochre);
+  margin:clamp(.8rem,1.6vw,1.8rem) 0 clamp(.9rem,1.7vw,1.9rem);
+}
+.band-copy{line-height:1.75;font-size:clamp(.95rem,1.25vw,1.5rem);max-width:44ch;}
+.ml-form{display:flex;flex-direction:column;gap:clamp(.7rem,1.1vw,1.3rem);}
+.ml-form[hidden]{display:none;}
+.ml-form input{
+  width:100%;
+  border:0;
+  background:#fff;
+  color:var(--ink);
+  font-family:inherit;
+  font-size:clamp(.9rem,1.15vw,1.35rem);
+  padding:clamp(.8rem,1.25vw,1.5rem) clamp(.9rem,1.3vw,1.6rem);
+  outline:none;
+}
+.ml-form input:focus{box-shadow:0 0 0 2px var(--ochre);}
+.ml-form input::placeholder{color:#9a9a94;}
+.ml-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;
+}
+.ml-note{font-size:clamp(.72rem,.9vw,1.05rem);font-style:italic;color:rgba(244,241,234,.85);}
+.ml-btn{
+  border:0;cursor:pointer;
+  background:var(--ochre);color:#fff;
+  font-family:inherit;font-weight:600;
+  font-size:clamp(.72rem,.95vw,1.1rem);letter-spacing:.16em;text-transform:uppercase;
+  padding:clamp(.8rem,1.25vw,1.5rem) clamp(1.4rem,2.4vw,2.9rem);
+  transition:background .2s ease;
+}
+.ml-btn:hover{background:var(--ochre-deep);}
+.ml-success{
+  font-family:'Dream Girl',cursive;
+  font-size:clamp(1.8rem,3.2vw,3.8rem);
+  color:var(--bone);
+  line-height:1.3;
+}
+.ml-success small{
+  display:block;font-family:'Montserrat',sans-serif;
+  font-size:clamp(.8rem,1vw,1.2rem);letter-spacing:.04em;margin-top:.8rem;
+  color:rgba(244,241,234,.85);
+}
+.ml-error{
+  margin-top:1rem;
+  font-size:clamp(.78rem,.95vw,1.05rem);
+  line-height:1.5;
+  color:#fff;
+  font-weight:600;
+}
+
+/* ---------- Footer ---------- */
+.footer{padding:clamp(2.5rem,3.5vw,4.2rem) 0;}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:6vw;
+  align-items:end;
+}
+.footer-logo{width:clamp(100px,10.5vw,200px);height:auto;object-fit:contain;margin-bottom:clamp(.9rem,1.8vw,2.1rem);}
+.footer-addr{font-weight:700;font-size:clamp(.75rem,1.05vw,1.25rem);letter-spacing:.14em;text-transform:uppercase;}
+.footer-mail{
+  display:block;width:max-content;margin-top:.6rem;
+  font-size:clamp(.8rem,1.05vw,1.25rem);color:var(--ink);text-decoration:none;
+  border-bottom:1px solid transparent;transition:border-color .2s ease,color .2s ease;
+}
+.footer-mail:hover{color:var(--ochre-deep);border-color:var(--ochre-deep);}
+.footer-right{text-align:right;}
+.footer-script{
+  font-family:'Dream Girl',cursive;
+  color:var(--ochre);
+  font-size:clamp(2rem,3.4vw,4rem);
+  line-height:1.2;
+  margin-bottom:clamp(1rem,2vw,2.2rem);
+}
+.social-row{display:flex;gap:clamp(1.4rem,3vw,3.4rem);justify-content:flex-end;flex-wrap:wrap;}
+.social-link{
+  display:inline-flex;align-items:center;gap:clamp(.5rem,.9vw,1.1rem);
+  text-decoration:none;color:var(--euc);
+  font-weight:600;font-size:clamp(.72rem,1vw,1.2rem);letter-spacing:.14em;text-transform:uppercase;
+  transition:color .2s ease;
+}
+.social-link:hover{color:var(--ochre-deep);}
+.social-link .ic{
+  width:clamp(36px,3vw,56px);height:clamp(36px,3vw,56px);border-radius:50%;
+  background:var(--euc);
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:background .2s ease;
+}
+.social-link:hover .ic{background:var(--ochre-deep);}
+.social-link .ic svg{width:52%;height:52%;fill:#fff;}
+
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .hero{height:100svh;}
+  .intro-grid,.band-grid,.footer-grid{grid-template-columns:1fr;}
+  .intro-grid{gap:3rem;}
+  .intro-copy{padding-top:0;gap:1.6rem;}
+  .footer-right{text-align:left;}
+  .social-row{justify-content:flex-start;}
+  .band-grid{gap:2.5rem;}
+  .band-script{white-space:normal;}
+}
+@media (max-width:640px){
+  .fn-btns{flex-direction:column;}
+}
+@media (max-width:520px){
+  .hero-logo{width:140px;}
+  .icon-row{gap:1.2rem;}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <picture>
+    <source media="(max-width:900px)" srcset="assets/hero_venue_full.jpg">
+    <img class="hero-bg" src="assets/hero_venue.jpg" alt="Galuwa Recreation Centre overlooking the Lane Cove Golf Course">
+  </picture>
+  <div class="hero-inner">
+    <div>
+      <img class="hero-logo" src="assets/dining_master_transparent.png" alt="Galuwa Dining logo">
+      <h1 class="hero-head">A new dining &amp; functions<br>destination is coming<br>to Lane Cove</h1>
+    </div>
+    <div class="hero-spacer"></div>
+    <p class="hero-opening">Opening Spring 2026</p>
+  </div>
+</header>
+
+<!-- ================= INTRO ================= -->
+<section class="intro">
+  <div class="wrap intro-grid">
+    <div class="intro-copy">
+      <p>Opening Spring 2026, Galuwa Dining is a new dining and events destination nestled within the beautiful Lane Cove Golf Course, just 15 minutes from Sydney&apos;s CBD.</p>
+      <p>Designed to bring people together over exceptional food, warm hospitality and beautiful surroundings, Galuwa Dining will offer a welcoming space to dine, celebrate and connect. From relaxed breakfasts and long lunches to evening drinks, intimate dinners and memorable celebrations, every experience has been thoughtfully considered.</p>
+      <p>Alongside the restaurant, Galuwa Dining will feature a collection of contemporary event spaces overlooking the golf course, ideal for corporate meetings, conferences, weddings, celebrations and community events. Flexible spaces, tailored catering and personalised service can host up to 500 guests when combined.</p>
+      <p>Bookings are now open for end-of-year functions and events. Restaurant menus will be released closer to opening; sign up for news, menu announcements and exclusive invitations as we count down to Spring 2026.</p>
+      <div class="icon-row">
+        <div class="icon-item">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M6 6v10c0 2.2 1.8 4 4 4v22M6 6v8M10 6v8M14 6v8M14 6v10c0 2.2-1.8 4-4 4"/>
+            <path d="M42 6c-2.8 3.6-4 8-4 13v7h4v16"/>
+            <circle cx="24" cy="26" r="11"/>
+            <circle cx="24" cy="26" r="6.5"/>
+          </svg>
+          <span>Dining</span>
+        </div>
+        <div class="icon-item">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M12 20h20v9a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8v-9Z"/>
+            <path d="M32 22h3a5 5 0 0 1 0 10h-3"/>
+            <path d="M10 42h24"/>
+            <path d="M18 8c-1.2 1.8-1.2 3.2 0 5M24 8c-1.2 1.8-1.2 3.2 0 5"/>
+          </svg>
+          <span>Coffee</span>
+        </div>
+        <div class="icon-item">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M12 10h24l-12 14-12-14Z"/>
+            <path d="M24 24v14M16 42h16"/>
+            <circle cx="33" cy="14" r="4.5"/>
+            <path d="M33 9.5v-2M37.5 14h2"/>
+          </svg>
+          <span>Drinks</span>
+        </div>
+        <div class="icon-item">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M14 6l10 3-3.5 12a4.6 4.6 0 0 1-6.5 3L10.5 12 14 6Z"/>
+            <path d="M14.5 27L12 40M8 40h8"/>
+            <path d="M34 6l-10 3 3.5 12a4.6 4.6 0 0 0 6.5 3l3.5-12L34 6Z"/>
+            <path d="M33.5 27L36 40M32 40h8"/>
+            <path d="M24 2v2M20 3l.8 1.8M28 3l-.8 1.8"/>
+          </svg>
+          <span>Events</span>
+        </div>
+      </div>
+    </div>
+
+    <aside class="fn-card">
+      <h2 class="fn-head">Book your<br>end of year</h2>
+      <p class="fn-script">Function</p>
+      <h2 class="fn-head">now</h2>
+      <p class="fn-body">
+        <strong>Planning your corporate or end of year event?</strong>
+        Explore our function spaces, menus and beverage packages.
+      </p>
+      <div class="fn-btns">
+        <a class="btn btn-solid" href="assets/downloads/galuwa-dining-corporate-event-packages.pdf" target="_blank" rel="noopener">Corporate event packages<span class="arr">&rarr;</span></a>
+        <a class="btn btn-line" href="assets/downloads/galuwa-dining-functions-booklet.pdf" target="_blank" rel="noopener">General functions booklet<span class="arr">&rarr;</span></a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= MAILING LIST ================= -->
+<section class="band" id="join">
+  <div class="wrap band-grid">
+    <div>
+      <p class="band-script">Become a Founding Guest</p>
+      <div class="band-underline"></div>
+      <p class="band-copy">Join an exclusive community and enjoy special offers, opening announcements, menu previews and priority access to ticketed events before Galuwa Dining opens its doors.</p>
+    </div>
+    <div>
+      <form class="ml-form" id="ml-form" name="mailing-list" method="POST" action="/thank-you.html?type=founding" data-netlify="true" netlify="true" netlify-honeypot="company">
+        <input type="hidden" name="form-name" value="mailing-list">
+        <input type="hidden" name="form_type" value="signup">
+        <p style="display:none"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></p>
+        <input type="text" name="name" placeholder="Your full name" autocomplete="name" required>
+        <input type="email" name="email" placeholder="Your email address" autocomplete="email" required>
+        <div class="ml-foot">
+          <span class="ml-note">We respect your privacy. No spam, ever.</span>
+          <button class="ml-btn" type="submit">Join the list</button>
+        </div>
+      </form>
+      <div class="ml-success" id="ml-success" hidden>
+        You're on the list.
+        <small>Thanks for joining — watch your inbox for opening announcements.</small>
+      </div>
+      <p class="ml-error" id="ml-error" role="alert" aria-live="polite" hidden></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img class="footer-logo" src="assets/dining_avatar_square.png" alt="Galuwa Dining logo">
+      <p class="footer-addr">180 River Rd, Lane Cove NSW</p>
+      <a class="footer-mail" href="mailto:info@galuwadining.com.au">info@galuwadining.com.au</a>
+    </div>
+    <div class="footer-right">
+      <p class="footer-script">Follow our journey</p>
+      <div class="social-row">
+        <a class="social-link" href="https://www.instagram.com/galuwadining" target="_blank" rel="noopener">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Zm0-2.1a5.3 5.3 0 1 1 0 10.6 5.3 5.3 0 0 1 0-10.6Zm6.8-.4a1.24 1.24 0 1 1-2.48 0 1.24 1.24 0 0 1 2.48 0ZM12 4.2c2.5 0 2.8 0 3.8.06a5.15 5.15 0 0 1 1.73.32 2.9 2.9 0 0 1 1.66 1.66c.2.53.3 1.1.32 1.73.05 1 .06 1.3.06 3.8s0 2.8-.06 3.8a5.15 5.15 0 0 1-.32 1.73 2.9 2.9 0 0 1-1.66 1.66c-.53.2-1.1.3-1.73.32-1 .05-1.3.06-3.8.06s-2.8 0-3.8-.06a5.15 5.15 0 0 1-1.73-.32 2.9 2.9 0 0 1-1.66-1.66 5.15 5.15 0 0 1-.32-1.73c-.05-1-.06-1.3-.06-3.8s0-2.8.06-3.8a5.15 5.15 0 0 1 .32-1.73 2.9 2.9 0 0 1 1.66-1.66c.53-.2 1.1-.3 1.73-.32 1-.05 1.3-.06 3.8-.06M12 2.5c-2.55 0-2.87 0-3.87.06a6.82 6.82 0 0 0-2.3.43 4.6 4.6 0 0 0-2.63 2.63 6.82 6.82 0 0 0-.43 2.3C2.72 8.9 2.72 9.22 2.72 12s0 3.1.06 4.1c.07.86.2 1.6.43 2.3a4.6 4.6 0 0 0 2.63 2.63c.7.23 1.44.36 2.3.43 1 .05 1.32.06 3.86.06s2.87 0 3.87-.06a6.82 6.82 0 0 0 2.3-.43 4.6 4.6 0 0 0 2.63-2.63c.23-.7.36-1.44.43-2.3.05-1 .06-1.32.06-3.87s0-2.87-.06-3.87a6.82 6.82 0 0 0-.43-2.3 4.6 4.6 0 0 0-2.63-2.63 6.82 6.82 0 0 0-2.3-.43C14.87 2.52 14.55 2.5 12 2.5Z"/></svg></span>
+          @galuwadining
+        </a>
+        <a class="social-link" href="https://www.facebook.com/galuwadining" target="_blank" rel="noopener">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.4 21v-7.2h2.43l.36-2.82H13.4V9.18c0-.82.23-1.37 1.4-1.37h1.5V5.3c-.26-.03-1.15-.11-2.19-.11-2.17 0-3.65 1.32-3.65 3.75v2.04H8v2.82h2.46V21h2.94Z"/></svg></span>
+          Galuwa Dining
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // ===== Event enquiry form =====
+  // Google Sheets logging: paste your Apps Script Web App URL here once created
+  // (setup guide: "Galuwa enquiry form — Google Sheets setup.md")
+  var SHEETS_URL = '';  // e.g. 'https://script.google.com/macros/s/AKfyc.../exec'
+
+  var eform = document.getElementById('enq-form');
+  var esuccess = document.getElementById('enq-success');
+  eform && eform.addEventListener('submit', function(e){
+    e.preventDefault();
+    var params = new URLSearchParams(new FormData(eform)).toString();
+    // 1) Netlify Forms capture (automatic once deployed on Netlify)
+    var p1 = fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:params })
+      .catch(function(){});
+    // 2) Google Sheets via Apps Script (once SHEETS_URL is set)
+    var p2 = SHEETS_URL
+      ? fetch(SHEETS_URL, { method:'POST', mode:'no-cors', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:params })
+          .catch(function(){})
+      : Promise.resolve();
+    Promise.all([p1,p2]).finally(function(){ window.location.href = 'thank-you.html?type=enquiry'; });
+  });
+
+  // ===== Mailing list form =====
+  var form = document.getElementById('ml-form');
+  var success = document.getElementById('ml-success');
+  var error = document.getElementById('ml-error');
+  var submitButton = form && form.querySelector('button[type="submit"]');
+  form && form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var data = new FormData(form);
+    var params = new URLSearchParams(data).toString();
+    var name = String(data.get('name') || '');
+    var email = String(data.get('email') || '');
+    var company = String(data.get('company') || '');
+
+    error.hidden = true;
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Joining…';
+    }
+
+    // Netlify Forms remains a best-effort secondary capture for dashboard reporting.
+    var formCapture = fetch('/', {
+      method:'POST',
+      headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:params
+    }).catch(function(){});
+
+    // MailerLite is called only from the private server-side Netlify Function.
+    var subscription = fetch('/.netlify/functions/founding-guest', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ name:name, email:email, company:company })
+    });
+
+    Promise.all([formCapture, subscription])
+      .then(function(results){
+        var response = results[1];
+        if (!response.ok) throw new Error('subscription failed');
+        window.location.href = 'thank-you.html?type=founding';
+      })
+      .catch(function(){
+        error.textContent = 'We could not add you to the list just now. Please try again shortly or email info@galuwadining.com.au.';
+        error.hidden = false;
+      })
+      .finally(function(){
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = 'Join the list';
+        }
+      });
+  });
+})();
+</script>
+
+</body>
+</html>

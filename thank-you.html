@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank you — Galuwa Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+  <style>
+    :root{--bone:#f4f1ea;--euc:#4e6961;--ochre:#a08f3c;--ink:#1c1c1a}*{box-sizing:border-box}body{min-height:100vh;margin:0;display:grid;place-items:center;background:var(--bone);color:var(--ink);font-family:Montserrat,Arial,sans-serif;padding:2rem}main{width:min(680px,100%);background:#fffdf8;border:1px solid #d8d5ca;text-align:center;padding:clamp(2.5rem,7vw,5.5rem) clamp(1.5rem,6vw,4rem);box-shadow:0 22px 60px rgba(28,28,26,.11)}.logo{width:min(170px,45vw);height:auto}.tick{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#e2e7df;border:1px solid #94b1a8;color:var(--euc);font-size:1.5rem;margin:2.2rem auto 1.4rem}.eyebrow{color:var(--ochre);font-size:.75rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase}.title{margin:1rem 0 1.4rem;color:var(--euc);font-size:clamp(2rem,5.5vw,3.8rem);font-weight:500;line-height:1.05}.copy{margin:0 auto;max-width:48ch;line-height:1.8}.button{display:inline-block;margin-top:2.2rem;background:var(--euc);color:#fff;text-decoration:none;padding:1rem 1.5rem;font-size:.82rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.button:hover{background:#3f564f}
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="assets/dining_avatar_square.png" alt="Galuwa Dining logo">
+    <div class="tick">✓</div>
+    <p class="eyebrow" id="eyebrow">Founding Guest registration received</p>
+    <h1 class="title" id="title">Welcome to the table.</h1>
+    <p class="copy" id="copy">Thank you for becoming a Founding Guest. We&apos;ll share opening news, menu announcements and exclusive invitations as we count down to Spring 2026.</p>
+    <a class="button" href="index.html">Return to Galuwa Dining</a>
+  </main>
+  <script>
+    if(new URLSearchParams(window.location.search).get('type')==='enquiry'){
+      document.getElementById('eyebrow').textContent='Enquiry received';
+      document.getElementById('title').textContent='Thank you for your enquiry.';
+      document.getElementById('copy').textContent='Our Galuwa Dining functions team has received your details and will be in touch to discuss your event.';
+    }
+  </script>
+</body>
+</html>
